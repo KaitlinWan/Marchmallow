@@ -12,4 +12,19 @@ W 2018-03-14
 
 
 
-#### EXECUTION TIME MEASUREMENTS:
+### Hypothesis
+
+
+### Background
+
+
+### Experiemnt Methodology
+
+
+### Results
+
+
+### Conclusions
+
+
+
