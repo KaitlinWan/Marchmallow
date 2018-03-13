@@ -1,3 +1,5 @@
+package Marchmallow;
+
 /*
 Kevin Wang
 APCS2 Pd. 8
