@@ -30,3 +30,11 @@ Find the runtime of quicksort for a n size array of integers.
 
 
 
+
+To do:
+
+- worst case
+
+- best case
+
+- random
