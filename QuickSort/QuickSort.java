@@ -1,4 +1,4 @@
-package Marchmallow;
+package QuickSort;
 
 /*
 Kevin Wang
