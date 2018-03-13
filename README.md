@@ -1,6 +1,6 @@
 # Team Marchmallow
 
-##### What Does the Data Say?
+#### What Does the Data Say?
 
 Kaitlin Wan, Alan Wang, Kevin Wang
 
