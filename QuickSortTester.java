@@ -1,5 +1,4 @@
 import quicksort.*;
-import java.util.Scanner;
 
 public class QuickSortTester {
 
