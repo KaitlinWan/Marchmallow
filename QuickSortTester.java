@@ -53,7 +53,7 @@ public class QuickSortTester {
 
 	//best case
 
-	for (int n = 30000; n >= 5000; n -= 100) { //array size
+	for (int n = 10000; n >= 100; n -= 100) { //array size
 	    System.out.print(n + ","); //print array size
 	    long total = 0; //total runtime for each run
 
@@ -77,7 +77,7 @@ public class QuickSortTester {
 
 	//average case
 
-	for (int n = 30000; n >= 5000; n -= 100) { //array size
+	for (int n = 10000; n >= 100; n -= 100) { //array size
 	    System.out.print(n + ","); //print array size
 	    long total = 0; //total runtime for each run
 
