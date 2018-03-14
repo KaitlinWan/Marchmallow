@@ -93,8 +93,8 @@ public class QuickSort {
 	//swap pivot to correct index
 	swap(pivotFinal, high, arr);
 
-	partition(arr, low, pivotFinal - 1, (pivotFinal - 1 + low) / 2); //run on lower half
-	partition(arr, pivotFinal + 1, high, (high + pivotFinal + 1) / 2); //run on upper half
+	partition(arr, low, pivotFinal - 1, low); //run on lower half
+	partition(arr, pivotFinal + 1, high, pivotFinal + 1); //run on upper half
 	return arr;
     }
     //--------------^  HELPER METHODS  ^--------------
