@@ -12,10 +12,12 @@ W 2018-03-14
 # What Does the Data Say?
 
 ### Hypothesis
-If there is a n size array of integers then we believe that quicksort will exhibit a O(nlogn) runtime.
+If there is a size n array of integers, then we believe that quicksort will exhibit a worst case (), average case O(nlogn) runtime, and a best case of ().
+
 
 ### Background
 Find the runtime of quicksort for a n size array of integers. 
+Find how the pivot selection and data arrangement affects execution time.
 
 ### Experiemnt Methodology
 
