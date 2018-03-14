@@ -1,7 +1,7 @@
-package QuickSort;
+package quicksort;
 
 /*
-Kevin Wang
+Kaitlin Wan, Alan Wang, Kevin Wang
 APCS2 Pd. 8
 HW #18 -- QuickSort
 2018-03-13
@@ -69,7 +69,7 @@ public class QuickSort {
 	* @param arr is the array to be operated on
 	* @param low is the index of the lower bound of the array that you want to operate on
 	* @param high is the index of the upper bound of the array that you want to operate on
-	* @param pivotPos is the index of the pivot value (usually the middle element)
+	* @param pivotPos is the index of the pivot value
 	*/
 	public static int[] partition(int[] arr, int low, int high, int pivotPos) {
 		if (low >= high) //if arr.length <= 1
@@ -105,7 +105,7 @@ public class QuickSort {
 	 *****************************************************/
 	public static void qsort(int[] d) {
 		shuffle(d); //shuffle d first in case it is nearly sorted to prevent worst case
-		partition(d, 0, d.length - 1, (d.length - 1) / 2); //use middle element as pivot
+		partition(d, 0, d.length - 1, 0); //use first element as pivot
 	}
 
 	//main method for testing
