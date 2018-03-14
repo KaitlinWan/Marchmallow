@@ -11,7 +11,7 @@ public class QuickSortTester {
      */
     public static void bestCaseGen(int[] arr, int low, int high) {
 	int count = high - 1 - low;
-	if (count < 2){
+	if (count < 2) {
 	    return;
 	}
 
@@ -30,7 +30,7 @@ public class QuickSortTester {
 	long b = 0; //end time
 
 	//worst case
-	for (int n = 17000; n >= 5000; n -= 100) { //array size
+	for (int n = 10000; n >= 100; n -= 100) { //array size
 	    System.out.print(n + ","); //print array size
 	    long total = 0; //total runtime for each run
 
