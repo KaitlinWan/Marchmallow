@@ -19,7 +19,7 @@ If there is a size n array of integers, then we believe that quicksort will exhi
 Find the runtime of quicksort for a n size array of integers. 
 Find how the pivot selection and data arrangement affects execution time.
 
-### Experiemnt Methodology
+### Experiment Methodology
 
 
 ### Results
