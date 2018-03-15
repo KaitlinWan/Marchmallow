@@ -35,7 +35,11 @@ However, of those 5000 trials, we will only be using the latter 4900 because of 
 ### Results
 #### Worst Unshuffled
 ![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/worst_unshuf.png)
+
+#### Best Unshuffled
 ![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/best_unshuf.png)
+
+### Normal Unshuffled
 ![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/norm_unshuf.png)
 
 ### Conclusions
