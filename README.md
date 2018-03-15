@@ -12,7 +12,7 @@ W 2018-03-14
 # What Does the Data Say?
 
 ### Hypothesis
-After writing partition, we established that the runtime is linear. The implementation of QuickSort is like MergeSort (which was O(nlogn) for the best case), but rather than sorting the whole array, it will just sort the selected area. If there is a size n array of integers we believe that the worst case will be O(n^2). This is because for each new pivot it will need to make the most comparision and swaps. The average case and best case will both be O(nlogn). We noticed the similarities of the implementation of the 2 different algorithms.
+After writing partition, we established that its runtime is linear. The implementation of QuickSort is like MergeSort (which was O(nlogn) for best case), but rather than sorting the whole array, it will just sort the selected area. If there is a size n array of integers we believe that the worst case will be O(n^2). This is because for each new pivot it will need to make the most comparision and swaps. The average case and best case will both be O(nlogn). We noticed the similarities of the implementation of the 2 different algorithms.
 
 ### Background 
 We implemented the assignments from our past homeworks. After careful consideration we decided to use Kevin's code because it is beautifully coded. For the assignment, we needed to write a tester for the QuickSort. To implement the QuickSort.java that we wrote, we made QuickSort into a package. Making it a package allows us to easy call all the methods in QuicksSort.java.
