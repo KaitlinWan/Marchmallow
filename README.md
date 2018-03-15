@@ -12,12 +12,14 @@ W 2018-03-14
 # What Does the Data Say?
 
 ### Hypothesis
-If there is a size n array of integers, then we believe that quicksort will exhibit a worst case (n^2), average case O(nlogn) runtime, and a best case of (nlogn).
+After writing partition, we established that the runtime is linear. The implementation of QuickSort is like MergeSort (which was O(nlogn) for the best case), but rather than sorting the whole array, it will just sort the selected area. If there is a size n array of integers we believe that the worst case will be O(n^2). This is because for each new pivot it will need to make the most comparision and swaps. The average case and best case will both be O(nlogn). We noticed the similarities of the implementation of the 2 different algorithms.
 
+### Background 
+We implemented the assignments from our past homeworks. After careful consideration we decided to use Kevin's code because it is beautifully coded. For the assignment, we needed to write a tester for the QuickSort. To implement the QuickSort.java that we wrote, we made QuickSort into a package. Making it a package allows us to easy call all the methods in QuicksSort.java.
 
-### Background
-Find the runtime of quicksort for a n size array of integers. 
-Find how the pivot selection and data arrangement affects execution time.
+Our Task:
+1. Find the runtime of quicksort for a n size array of integers. 
+2. Find how the pivot selection and data arrangement affects execution time.
 
 ### Experiment Methodology
 We are going to find out the runtime of our algorithm under different cases by testing how long the algorithm takes to run on increasing n values. With this data we are going to graph the points and look at the trend of the graph.
@@ -33,7 +35,15 @@ However, of those 5000 trials, we will only be using the latter 4900 because of 
 ### Results
 #### Worst Unshuffled
 ![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/worst_unshuf.png)
+![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/best_unshuf.png)
+![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/norm_unshuf.png)
 
 ### Conclusions
 
-After our experimentation, we concluded that the runtime for the worst case is n^2. From the chart of the worst case, it exhibits a very strong quadratic correlation.
+After our experimentation, we concluded that the runtime for the worst case is n^2. From the chart of the worst case, it exhibits a very strong quadratic correlation. Using the chart programs 
+
+
+For our normal it looks 
+r^2 nORMAL === 0.99999
+r^2 == worst
+.9999
