@@ -88,6 +88,7 @@ public class QuickSortTester {
 		if (trial > 99) { //in case there is weird behavior for first few runs
 		    a = System.currentTimeMillis();
 		    QuickSort.qsort(arr); //quicksort
+			b = System.currentTimeMillis();
 		    total += b - a; //find time took and add to total
 		}
 	    }
