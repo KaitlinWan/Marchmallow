@@ -12,7 +12,7 @@ W 2018-03-14
 # What Does the Data Say?
 
 ### Hypothesis
-If there is a size n array of integers, then we believe that quicksort will exhibit a worst case (), average case O(nlogn) runtime, and a best case of ().
+If there is a size n array of integers, then we believe that quicksort will exhibit a worst case (n^2), average case O(nlogn) runtime, and a best case of (nlogn).
 
 
 ### Background
