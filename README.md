@@ -42,6 +42,9 @@ However, of those 5000 trials, we will only be using the latter 4900 because of 
 #### Normal Unshuffled
 ![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/norm_unshuf.png)
 
+#### Comparison
+![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/compare.png)
+
 ### Conclusions
 After our experimentation, we concluded that the runtime for the worst case is n^2. From the chart of the worst case, it exhibits a very strong quadratic correlation. Using the chart program, we found the constant for the R^2. This was 0.9999 (which is basically 1). 
 
