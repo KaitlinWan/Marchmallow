@@ -1,4 +1,4 @@
-# :cloud: :icecream: Team Marchmallow :cloud: :icecream:
+# :cloud: :icecream: Team Marchmallow :icecream: :cloud: 
 
 Kaitlin Wan, Alan Wang, Kevin Wang
 
@@ -31,20 +31,9 @@ For all runs, we will start with a n value of 100 and end at 10000, going at inc
 However, of those 5000 trials, we will only be using the latter 4900 because of prior experience with unexplained runtime differences in a prior experiment. We will find the total time for the 4900 trials and calculate the average. Then we will repeat this many times and take the average for the multiple executions before analyzing.
 
 ### Results
+#### Worst Unshuffled
 ![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/worst_unshuf.png)
 
 ### Conclusions
 
-
-
-
-
-
-
-To do:
-
-- worst case
-
-- best case
-
-- random
+After our experimentation, we concluded that the runtime for the worst case is n^2. From the chart of the worst case, it exhibits a very strong quadratic correlation.
