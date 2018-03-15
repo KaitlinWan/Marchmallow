@@ -46,6 +46,6 @@ However, of those 5000 trials, we will only be using the latter 4900 because of 
 ![Chart](https://github.com/KaitlinWan/Marchmallow/blob/master/compare.png)
 
 ### Conclusions
-After our experimentation, we concluded that the runtime for the worst case is n^2. From the chart of the worst case, it exhibits a very strong quadratic correlation. For best case, it appears that the relationship is not as curved as a quadratic, but more curved than a linear. This fits the behavior of O(nlogn). For a random array, it appears to also be quadratic for some reason, but we think that it is because of something in our code.
+After our experimentation, we concluded that the runtime for the worst case is O(n^2). From the chart of the worst case, it exhibits a very strong quadratic correlation. For best case, it appears that the relationship is not as curved as a quadratic, but more curved than a linear. This fits the behavior of O(nlogn). For a random array, it appears to also be quadratic for some reason, but we think that it is because of something in our code.
 
 As we saw, the array size is important in Quicksort's run-time. In our case, a sorted array took much more longer to sort than a "best case" array. However, the pivot point also makes a difference. If the array is nearly sorted, then choosing the first element as a pivot (which is what we did) will result in a much worse run-time than choosing a middle pivot when sorting a nearly sorted array.
