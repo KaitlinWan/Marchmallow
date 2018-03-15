@@ -1,5 +1,14 @@
 import quicksort.*;
 
+/** Creates three cases for testing: worst, best, and random.
+ * For each, generate arrays appropriate for each.
+ * Check the current time in milliseconds.
+ * Run Quicksort on the array.
+ * Check the current time in miiliseconds.
+ * Find the total time taken.
+ * Do this again 4899 times.
+ */
+
 public class QuickSortTester {
 
     /** Generates a best case scenario for quicksort by working backwards
